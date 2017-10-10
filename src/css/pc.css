@@ -1,0 +1,433 @@
+body{
+    background-color: gray;
+    font-family: "微软雅黑";
+}
+/*通用样式*/
+a{
+    text-decoration:none;
+}
+a,p,h1,h2,h3,h4,h5,h6,div,span{
+    font-family: "微软雅黑";
+
+}
+
+
+
+/*顶部登录条*/
+.top-bar{
+    background-color:black;
+}
+.top-34{
+    height: 34px;
+    color:white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.border-right-2{
+    border-right: 1px solid gray;
+}
+
+/*天气图标样式*/
+.weather-icon{
+	margin: auto;
+	width: 48px;
+	height: 48px;
+	/*background: #eee;*/
+  background-repeat: no-repeat;
+}
+
+.weather-icon-0 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/0.2491676.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-1 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/1.51a147f.png);
+  background-repeat: no-repeat;
+
+}
+
+.weather-icon-2 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/2.edf7194.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-3 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/3.0457b68.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-4 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/4.7642bb6.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-5 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/5.1531508.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-6 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/6.db5a188.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-7 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/7.88acb18.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-8 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/8.9815104.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-9 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/9.2f510a8.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-10 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/10.2537929.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-13 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/13.b05865c.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-14 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/14.9b3eb63.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-15 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/15.5a76b28.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-16 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/16.6a326fa.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-17 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/17.32ec6f5.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-18 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/18.a639aa7.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-19 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/19.939a531.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-20 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/20-36.55ac7de.png);
+  background-repeat: no-repeat;
+}
+.weather-icon-30 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/30.10c227c.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-31 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/31.4b92e75.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-32 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/32.6a54cc8.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-33 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/33.d20b8b5.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-34 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/34.e4493a6.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-35 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/29-35.0505311.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-36 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/20-36.55ac7de.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-44 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/44.0af4b08.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-45 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/45-46.26db39c.png);
+  background-repeat: no-repeat;
+}
+
+.weather-icon-46 {
+	background: url(http://s3.pstatp.com/toutiao/static/img/45-46.26db39c.png);
+  background-repeat: no-repeat;
+}
+
+
+
+
+/*中间内容*/
+/*aside*/
+.aside-margintop{
+    /*margin-top: 20px;*/
+    display: flex;
+    flex: :1;
+    flex-direction: row;
+    width:95%;
+}
+.pc-news-logo-size{
+    width: 140px;
+    text-align: center;
+}
+.pc-nav{
+    margin-top: 10px;
+    border:none !important;
+    /*width: 140px !important;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.pc-nav li{
+    margin-left: 0 !important;
+    font-size: 24px !important;
+    font-family: "微软雅黑";
+    /*padding:6px !important;*/
+    border-radius: 4px;
+    font-size: 18px !important;
+
+}
+.pc-nav li:hover{
+    background-color: orange;
+    color:white;
+    font-family: "楷体";
+    font-size: 22px !important;
+}
+.pc-nav .ant-menu-item-selected {
+    color: white !important;
+    background-color: orange !important;
+    margin-bottom: 2px;
+    font-size: 18px !important;
+}
+
+/*走马灯*/
+.ant-carousel{
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+.ant-carousel h3{
+    position: absolute;
+    bottom: 0;
+    padding:20px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-size: 22px;
+    width:600px;
+
+}
+.ant-carousel .slick-slide {
+    text-align: center;
+    /*height: 160px;*/
+    /*line-height: 160px;*/
+    background: #364d79;
+    /*overflow: hidden;*/
+
+
+}
+
+.ant-carousel .slick-slide h3 {
+    color: #fff;
+}
+
+.carousel-nav{
+    /*height: 300px;*/
+    background-color: orange;
+}
+.carousel-wrap{
+    flex:1 !important;
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+}
+.carousel-nav{
+    /*width: 60px;*/
+    height: 300px;
+    flex:1 !important;
+
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+}
+/*新闻列表*/
+.news-title-a{
+    color:black;
+    text-decoration:none;
+}
+.news-title-a:hover{
+    color:#aaa;
+    text-decoration:none;
+}
+.news-title-a:visited{
+    text-decoration:none;
+}
+.news-title-a:link{
+    text-decoration:none;
+}
+
+
+/*右边换一换*/
+.pc_news_top_hao{
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
+.pc_news_top>div>p{
+	float: left;
+}
+
+.pc_news_top_hao .tag{
+	height: 20px;
+	width: 4px;
+	background-color: #fdd000;
+}
+.pc_news_top_hao .title{
+	margin-left: 10px;
+	font-size: 16px;
+	font-weight: "bolder";
+}
+.pc_news_top{
+	overflow: hidden;
+}
+.left{
+	float: left;
+}
+.pc_new_top_item .title{
+	white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    margin: 10px 0;
+    font-size: 20px;
+    padding: 10px 0;
+    font-weight: "800";
+}
+.right{
+	float: right;
+}
+
+
+/*右侧*/
+.pc-ad{
+    width:100%;
+    height:300px;
+    background-color: orange;
+}
+.img-100-100{
+    width:100px;
+    height: 100px;
+}
+
+/*精彩图片*/
+.pc-picture-title{
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+}
+/*新闻中部右侧搜索*/
+.pc-content-search {
+    position: relative;
+    width:80%;
+    margin-bottom: 20px;
+
+}
+
+.pc-content-search-input {
+    height: 44px !important;
+    font-size: 14px !important;
+    border-radius: 4px 0 0 4px !important;
+    color: #1f2d3d !important;
+}
+
+.pc-content-search-input::-webkit-input-placeholder {
+    color: #1f2d3d !important;
+}
+
+.pc-content-search-hot {
+    width: 100%;
+    position: absolute;
+    top: 44px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff;
+    display: none;
+}
+
+.pc-content-search-hot .a-hot {
+    width: 100%;
+    text-decoration: none;
+    margin: 5px 0;
+    color: #595959;
+    cursor: pointer;
+    color: #444;
+    height: 40px;
+    line-height: 40px;
+
+}
+
+.pc-content-search-hot .a-hot:hover {
+    background-color: #e2e2e2;
+
+}
+
+.pc-content-search-button {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 44px;
+    flex: 1;
+    background-color: #208eda;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 44px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.pc-content-search-report {
+    background-color: #f4f5f6;
+    padding: 15px 0;
+    margin-top: 15px;
+}
+
+.pc-content-search-report .a-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
